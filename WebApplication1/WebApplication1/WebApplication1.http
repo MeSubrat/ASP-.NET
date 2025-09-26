@@ -1,0 +1,30 @@
+@WebApplication1_HostAddress = http://localhost:5147
+
+GET {{WebApplication1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{WebApplication1_HostAddress}}/api/Student
+Accept:application/json
+###
+GET {{WebApplication1_HostAddress}}/api/Student/3
+Accept:application/json
+###
+POST {{WebApplication1_HostAddress}}/api/Student
+Content-Type:application/json
+{
+  "Name":"Subham",
+  "Age":21,
+  "Email":"subham@gmail.com"
+}
+###
+PUT {{WebApplication1_HostAddress}}/api/Student/2
+Content-Type:application/json
+{
+  "id":2,
+  "Name":"Sambit",
+  "Age":18,
+  "Email":"sambit@gmail.com"
+}
+###
+DELETE {{WebApplication1_HostAddress}}/api/Student/3
