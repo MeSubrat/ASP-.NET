@@ -1,0 +1,2 @@
+wwwroot\text.txt
+C:\Users\91784\Desktop\ASP.NET\LearnRouting\WebApp\wwwroot\text.txt
